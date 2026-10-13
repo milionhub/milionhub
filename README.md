@@ -26,11 +26,15 @@ Built with **Java 21, Spring Boot, React, TypeScript, PostgreSQL and Docker**.
 
 ### 🎙️ CRMVoice — AI-Powered CRM
 
-A voice-enabled CRM application that allows users to register and manage commercial activities using natural language.
+A full-stack CRM combining voice interaction, AI-powered workflows and structured business data management.
 
-Combines speech recognition and AI-driven language processing with a mobile interface and backend API.
+Built a **Voice Action Engine** using Whisper and LLMs, with deterministic entity resolution and human-in-the-loop confirmation before executing CRM operations.
 
-Built with **Flutter, FastAPI, Python, OpenAI API, Whisper and SQLite**.
+- Manage clients, contacts, activities, products and sales.
+- Query CRM data through a read-only AI assistant.
+- Secure REST API, authentication, automated tests and GitHub Actions CI.
+
+**Tech:** Flutter · FastAPI · Python · OpenAI API · Whisper · SQLite
 
 → [Explore CRMVoice](https://github.com/milionhub/TFG_CRMVoice)
 
