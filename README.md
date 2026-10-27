@@ -8,6 +8,23 @@ I enjoy designing, developing and delivering end-to-end projects, with a focus o
 
 ## 🚀 Featured Projects
 
+### 🎧 #4MUSIC — Electronic Music Discovery App
+
+A mobile app for discovering electronic music through verifiable connections: who made a track, what it samples, which labels and line-ups it shares. Every recommendation shows its reason and its source.
+
+Built with **React Native, Expo, TypeScript, FastAPI and Python**.
+
+- **TrackDNA:** search any track and get its DNA (genre, estimated BPM, sound profile, labels, credits, samples and where to listen), each item with its source.
+- **Posters:** photograph a festival poster; a vision LLM reads the line-up (stages, set times, B2Bs), you review only what's uncertain, and the app identifies each artist, shows who fits your taste and plans a route without overlaps.
+- Daily editorial home with picks based on your saved tracks, and artist profiles built from verified sources.
+- Backend as the single gateway to external sources (MusicBrainz, Discogs CC0, ListenBrainz, Wikidata), with rate limiting and caching; no API keys in the app.
+- Privacy by default: no accounts, everything stays on the device.
+- 390 automated tests (pytest + Node test runner) and strict TypeScript; tested on iOS and Android.
+
+**Tech:** React Native · Expo · TypeScript · FastAPI · Python · SQLite · Groq (vision LLM)
+
+→ [Explore #4MUSIC](https://github.com/milionhub/4music)
+
 ### 📋 QueueFlow — Project & Issue Management
 
 A full-stack project management platform designed for software teams, featuring Kanban boards, ticket tracking, team collaboration and role-based access control.
@@ -52,7 +69,7 @@ Built with **Next.js, React, TypeScript and Tailwind CSS**.
 
 **Languages:** Python · Java · TypeScript · JavaScript · Dart · SQL
 
-**Frontend:** React · Next.js · Tailwind CSS · Flutter
+**Frontend & Mobile:** React · Next.js · Tailwind CSS · Flutter · React Native · Expo
 
 **Backend:** Spring Boot · FastAPI · REST APIs · JWT
 
@@ -60,12 +77,12 @@ Built with **Next.js, React, TypeScript and Tailwind CSS**.
 
 **DevOps & Tools:** Git · GitHub · Docker · GitHub Actions · Flyway · Linux · Postman
 
-**AI & Integrations:** OpenAI API · Whisper · LLM Integration
+**AI & Integrations:** OpenAI API · Whisper · Groq · LLM Integration · MusicBrainz API
 
 ## 🌍 Languages
 
-Spanish — Native  
-English — Advanced  
+Spanish — Native
+English — Advanced
 Italian — A1
 
 ---
