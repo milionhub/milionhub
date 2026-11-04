@@ -8,6 +8,23 @@ I enjoy designing, developing and delivering end-to-end projects, with a focus o
 
 ## 🚀 Featured Projects
 
+### 🎟️ #4events — Event & QR Ticketing Platform
+
+A full-stack platform for running events with QR tickets: organizers publish events, attendees book from their phones and staff validate entry with the camera.
+
+Built with **Django, Django REST Framework, Angular, TypeScript, PostgreSQL and Docker**.
+
+- Concurrency-safe by design: no overbooking and no ticket admitted twice, even with simultaneous requests, proven by race tests against PostgreSQL.
+- QR scanner for door staff using the phone camera, in an installable PWA.
+- Multi-tenant organizations with role-based permissions enforced in the backend.
+- Organizer dashboard, attendee management and CSV export protected against formula injection.
+- 400+ backend tests with 99% branch coverage, Playwright E2E on desktop and mobile, and WCAG 2.1 AA checks with axe.
+- One-command Docker demo and GitHub Actions CI.
+
+**Tech:** Django · Django REST Framework · Angular · TypeScript · PostgreSQL · Docker · Playwright
+
+→ [Explore #4events](https://github.com/milionhub/4events)
+
 ### 🎧 #4MUSIC — Electronic Music Discovery App
 
 A mobile app for discovering electronic music through verifiable connections: who made a track, what it samples, which labels and line-ups it shares. Every recommendation shows its reason and its source.
@@ -69,13 +86,13 @@ Built with **Next.js, React, TypeScript and Tailwind CSS**.
 
 **Languages:** Python · Java · TypeScript · JavaScript · Dart · SQL
 
-**Frontend & Mobile:** React · Next.js · Tailwind CSS · Flutter · React Native · Expo
+**Frontend & Mobile:** Angular · React · Next.js · Tailwind CSS · Flutter · React Native · Expo
 
-**Backend:** Spring Boot · FastAPI · REST APIs · JWT
+**Backend:** Django · Django REST Framework · Spring Boot · FastAPI · REST APIs · JWT
 
 **Databases:** PostgreSQL · MySQL · SQLite · MongoDB · Oracle Database
 
-**DevOps & Tools:** Git · GitHub · Docker · GitHub Actions · Flyway · Linux · Postman
+**DevOps & Tools:** Git · GitHub · Docker · GitHub Actions · Playwright · Flyway · Linux · Postman
 
 **AI & Integrations:** OpenAI API · Whisper · Groq · LLM Integration · MusicBrainz API
 
